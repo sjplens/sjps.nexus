@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sergio José Plens da Silva - Cartão de Visitas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .container {
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            width: 90%;
+            max-width: 1200px;
+            height: 95%;
+            background: lightgrey;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 10px;
+            box-sizing: border-box;
+			font-size: 0.8em;
+        }
+        header {
+            grid-column: span 3;
+            text-align: center;
+            background-color: #0066CC;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 1.8em;
+        }
+        header img {
+            height: 15%;
+            height: 15%;
+        }
+        header p {
+            margin: 5px 0 0 0;
+        }
+        .section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            text-align: center;
+            overflow: hidden;
+        }
+        .apresentacao {
+            grid-column: 1 / 2;
+        }
+        .ilustracao {
+            grid-column: 2 / 3;
+        }
+        .contato {
+            grid-column: 3 / 4;
+        }
+        .descricao {
+            grid-column: span 3;
+        }
+        .cta {
+            grid-column: span 3;
+            text-align: center;
+            margin-top: 10px;
+        }
+        .cta a {
+            display: inline-block;
+            padding: 10px 20px;
+            color: white;
+            background-color: #0066CC;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+        h2 {
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+
+            <h1>Sergio José Plens da Silva</h1>
+            <p>Analista de TI  | Cibersegurança</p>
+        </header>
+        <div class="section apresentacao">
+            <h2>Apresentação</h2>
+            <p>Com mais de três décadas de experiência em tecnologia da informação, destaco-me pela minha contribuição na área de gestão de TI na Sabesp – Cia de Saneamento Básico do Estado de São Paulo, atuando como gestor para a região atendida pela Unidade de Negócio do Vale do Ribeira, garantindo a infraestrutura de TI e TO dos 23 municípios que compõem a região.</p><p></br></p><p>Com a reestruturação da empresa, surgiu a oportunidade de contribuir no campo da Cibersegurança, onde pude iniciar a prática do dia a dia da empresa nessa área, aplicando minhas habilidades em raciocínio lógico e melhoria de processos.</p><p></br></p><p>Minha missão é buscar garantir a segurança e a eficiência dos processos digitais, alinhando minhas competências técnicas com as metas e a cultura da organização.</p><p></br></p><p>Busco trazer uma perspectiva diversificada e experiências que enriquecem o time, sempre focado na melhoria contínua, com objetivo no Cliente.</p>
+        </div>
+        <div class="section ilustracao">
+            <h2>Ilustração</h2>
+            <img src="cubo.png" alt="Cubo">
+        </div>
+        <div class="section contato">
+            <h2>Competências</h2>
+            <p>
+            • Inteligência emocional
+            • Trabalho em equipe
+            • Adaptabilidade
+            • Comunicação
+            • Capacidade analítica
+            • Atendimento / suporte a cliente
+            • Proatividade
+            • Otimismo
+            • Resolução de problemas (Troubleshooting)
+            • Microsoft Active Directory / Microsoft Exchange / Microsoft Azure
+            • Windows e Linux (Servidores / Estações)
+            • VMWare ESXi (Virtualização)
+            • MS-SQL/MySQL (Bancos de Dados)
+            • Segurança da Informação
+            • PRTG (Monitoramento da infraestrutura)
+            • Infoblox (Gestão IPAM / DHCP / DNS)
+            • Redes (LAN/MAN/WAN)
+            • Switches Cisco e D-Link
+            • Elaboração e acompanhamento de projetos
+            </p>
+	    </div>
+        <div class="section descricao">
+            <h2>Informações de Contato</h2>
+            <p>Telefone: +55 (13) 98111-0735</p>
+            <p>E-mail: sjps@sjps.nexus</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/sergio-jose-plens-da-silva-39262537 (LinkedIn)">linkedin.com/in/sergiosilva</a></p>
+        </div>
+        <div class="cta">
+            <h2>Chamada para Ação (WhatsApp)</h2>
+            <a href="https://wa.me/5513981110735">Entre em Contato</a>
+        </div>
+    </div>
+</body>
+</html>
